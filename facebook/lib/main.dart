@@ -1,5 +1,6 @@
 import 'package:facebook/pages/custommain.dart';
 import 'package:facebook/pages/newsfeed.dart';
+import 'package:facebook/pages/notification.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
       ),
-      home: CustomMain(),
+      home: NotificationPage(),
     );
   }
 }
